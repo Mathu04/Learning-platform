@@ -1045,6 +1045,7 @@ body {
     background: linear-gradient(135deg, #f69050, #ff6922);
 }
 
+
 /* Dark Mode Button */
 [data-theme="dark"] .course-card .btn-outline-primary {
     color: var(--primary);
