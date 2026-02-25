@@ -45,44 +45,68 @@
           
             <div class="row g-4 wow fadeInUp" data-wow-delay="0.5s ">
                 <center>
-                    <form class="shadow p-4" style="max-width: 550px;">
-                       <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-    <!-- <h1 class="mb-5 bg-white text-center px-3">Signup</h1> -->
+                   <div class="container min-vh-100 d-flex align-items-center justify-content-center">
+  <div class="col-lg-5 col-md-7 col-sm-10">
+    
+    <form class="shadow-lg p-4 rounded bg-white">
 
-    <a href="index.html" class="navbar-brand d-flex justify-content-center align-items-center mx-auto">
-        <p class="m-0 fw-bold" style="font-size: 25px;">
-            <img src="img/icon.png" alt="" height="50px">
-            Secret<span style="color: #fb873f;">Coder</span>
+      <!-- LOGO -->
+      <div class="text-center mb-4">
+        <a href="index.html" class="navbar-brand d-inline-flex align-items-center">
+          <img src="img/icon.png" alt="logo" height="45">
+          <span class="fw-bold ms-2 fs-4">
+            Secret<span style="color:#fb873f;">Coder</span>
+          </span>
+        </a>
+        <p class="text-muted mt-2">Welcome back! Please login</p>
+      </div>
+
+      <!-- GOOGLE LOGIN -->
+      <button type="button" class=" btn btn-outline-light w-100 mb-3 d-flex align-items-center justify-content-center">
+        <img src="https://img.icons8.com/color/24/google-logo.png" class="me-2">
+        Continue with Google
+      </button>
+
+      <!-- DIVIDER -->
+      <div class="text-center my-3 position-relative">
+        <span class="bg-white px-3 text-muted">OR</span>
+        <!-- <hr class="position-absolute top-50 start-0 w-100"> -->
+      </div>
+
+      <!-- EMAIL -->
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="email" placeholder="Email Address">
+        <label for="email">Email Address</label>
+      </div>
+
+      <!-- PASSWORD -->
+      <div class="form-floating mb-2">
+        <input type="password" class="form-control" id="password" placeholder="Password">
+        <label for="password">Password</label>
+      </div>
+
+      <!-- FORGOT -->
+      <div class="text-end mb-3">
+        <a href="#" class="small text-decoration-none">Forgot password?</a>
+      </div>
+
+      <!-- LOGIN BUTTON -->
+      <button class="btn w-100 py-3 text-white" style="background:#fb873f;">
+        Login
+      </button>
+
+      <!-- SIGNUP -->
+      <div class="text-center mt-3">
+        <p class="mb-0">
+          Don’t have an account?
+          <a href="signup.html" class="text-decoration-none fw-semibold">Signup</a>
         </p>
-    </a>
+      </div>
+
+    </form>
+
+  </div>
 </div>
-                        <div class="row g-3">
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Email Address">
-                                    <label for="email">Email Address</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="password" class="form-control" id="password" placeholder="Password">
-                                    <label for="password">Password</label>
-                                </div>
-                            </div>
-
-                            <div class="col-12">
-                                <p><a href="#">Forgot password?</a></p>
-                            </div>
-                            
-                            <div class="col-12">
-                                <button class="btn text-light w-100 py-3" type="submit">Login</button>
-                            </div>
-
-                            <div class="col-12 text-center">
-                                <p>Don't have an account? <a class="text-decoration-none" href="signup.html">Signup</a></p>
-                            </div>
-                        </div>
-                    </form>
                 </center>     
                
 
