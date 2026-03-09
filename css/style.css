@@ -1039,7 +1039,28 @@ body {
     font-size: 12px;
   }
 }
+/* Mobile navbar overlay */
+@media (max-width: 991px){
 
+#navbarCollapse{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 9999;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+.navbar-nav .nav-link{
+    padding: 12px 20px;
+}
+
+}
 /* Collapse ONLY below tablets */
 @media (max-width: 991px) {
   .navbar-nav {
