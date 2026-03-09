@@ -1067,6 +1067,26 @@ body {
     flex-wrap: wrap;
   }
 }
+[data-theme="dark"] #navbarCollapse {
+    background: #0b2440;
+}
+
+[data-theme="dark"] .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+[data-theme="dark"] .navbar-nav .nav-link:hover {
+    color: #fb873f;
+}
+/* Dark mode navbar toggler */
+[data-theme="dark"] .navbar-toggler {
+    border-color: #ffffff;
+}
+
+/* Change icon to white */
+[data-theme="dark"] .navbar-toggler-icon {
+    filter: invert(1);
+}
 /* ===== DARK MODE ===== */
 [data-theme="dark"] .course-item {
     background: #0b2440;
